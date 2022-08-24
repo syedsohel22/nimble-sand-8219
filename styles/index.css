@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5f5f5;
+}
+#top-bar{
+    width: 100%;
+    background-color:#f8f9fa ;
+    border: 1px solid black;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#top-bar>input{
+    width: 50%;
+    background-color: bisque;
+    padding-left: 0px;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    }
+#serchbtn{
+    background-color: black;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#top-bar>div>button{
+    display: flex;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+#navbar{
+    display: flex;
+    border: 1px solid black;
+    background-color: #ffffff;  
+}
+#navbar>div{
+    margin-left: 15px;
+    padding: 10px;
+}
+
+
+#banner>img{
+    width: 100%;
+}
+
+#bestsellers-box,#justin-box{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+#bestsellers-box>h3,#justin-box>h2{
+text-align: center;
+width: 100%;
+}
+#bestsellers,#justin{
+    border: 1px solid black;
+    display: flex;  
+    justify-content: space-around;
+
+}
+#bestsellers>div,#justin>div{
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    background-color:white;
+}
+#bestsellers>div>img,#justin>div>img{
+    width: 80%;
+    
+}
+
+#bestsellers>div>div,#justin>div>div{
+background-color: black;
+color: white;
+padding: 10px;
+}
+
+#hotdeals-box{
+    border: 1px solid black; 
+    width: 100%;  
+}
+
+#hotdeals-box>h2{
+    text-align: center; 
+}
+
+#hotdeals{
+    border: 1px solid black;
+    display: flex;  
+    width: 100%; 
+    margin: auto;
+}
+
+#hotdeals>div{
+    margin: 15px;
+}
+#hotdeals>div>div{
+    border: 1px solid black;
+    margin: auto;  
+    justify-content: space-between;
+}
+#hotdeals>div>img{
+    width: 100%;
+}
+
+#videosec-box>div{
+    margin: auto;
+    border: 1px solid red;
+
+    
+}
+
+
+/* video styleing */
+#iframe-container{
+margin: auto;
+}
+  
+#toppic{
+    border: 1px solid black;
+    display: flex;
+}
