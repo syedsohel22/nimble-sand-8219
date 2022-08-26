@@ -4,9 +4,12 @@ body{
     background-color: #f5f5f5;
 }
 
+<<<<<<< HEAD
+=======
 h2,h3{
     font-family: 'Quicksand', sans-serif;
 }
+>>>>>>> e5695d91823ec24501c6c657afea11df96f394cf
 /* top -bar */
 #top-bar{
     width: 100%;
@@ -55,6 +58,8 @@ padding: 5px;
 }
 /* navbar */
 
+/* navbar */
+
 #navbar{
     display: flex;
     border: 1px solid black;
@@ -71,12 +76,23 @@ padding: 5px;
 }
 
 /* bestseller */
+<<<<<<< HEAD
+#bestsellers-box{
+=======
 .container{
+>>>>>>> e5695d91823ec24501c6c657afea11df96f394cf
     border: 1px solid black;
     width: 80%;
     margin: auto; 
 }
 
+<<<<<<< HEAD
+#bestsellers-box>h3{
+text-align: center;
+width: 100%;
+}
+#bestsellers{
+=======
 .container>h3{
     text-align: center;
     width: 100%;
@@ -87,23 +103,42 @@ padding: 5px;
         }
 
 .card-container{
+>>>>>>> e5695d91823ec24501c6c657afea11df96f394cf
     border: 1px solid black;
     display: flex;  
     justify-content: space-around;
 }
+<<<<<<< HEAD
+#bestsellers>div{
+=======
 
 
 .card-container>div{
+>>>>>>> e5695d91823ec24501c6c657afea11df96f394cf
     border: 1px solid black;
     width: 20%;
     text-align: center;
     background-color:white;
 }
+<<<<<<< HEAD
+#bestsellers>div>img{
+=======
 
 .card-container>div>img{
+>>>>>>> e5695d91823ec24501c6c657afea11df96f394cf
     width: 80%;
 }
 
+<<<<<<< HEAD
+#bestsellers>div>div{
+background-color: black;
+color: white;
+padding: 10px;
+}
+
+/* hotdeals */
+#hotdeals-box{
+=======
 
 .card-container>div>div{
     background-color: black;
@@ -121,6 +156,7 @@ padding: 5px;
 /* card-container-3b */
 
 .container-3b {
+>>>>>>> e5695d91823ec24501c6c657afea11df96f394cf
     border: 1px solid black; 
     width: 100%;  
 }
@@ -147,13 +183,57 @@ padding: 5px;
 .card-container-3b>div>img{
     width: 100%;
 }
+<<<<<<< HEAD
+/* justin */
+#justin-box{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
 
+}
+=======
 
+>>>>>>> e5695d91823ec24501c6c657afea11df96f394cf
 
+#justin-box>h2{
+    text-align: center;
+    width: 100%; 
+}
+
+#justin{
+    border: 1px solid black;
+    display: flex;  
+    justify-content: space-around; 
+}
+
+#justin>div{
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    background-color:white; 
+}
+#justin>div>img{
+    width: 80%;
+}
+
+#justin>div>div{
+    border: 1px solid black;
+    margin: auto;  
+    justify-content: space-between;    
+}
 /* video styleing */
 #videosec-box>div{
+<<<<<<< HEAD
+    margin: auto;
+    border: 1px solid red;  
+}
+
+#iframe-container{
+margin: auto;
+=======
     border: 1px solid red;  
     text-align: center;
+>>>>>>> e5695d91823ec24501c6c657afea11df96f394cf
 }
 #videosec-box>h2{
     text-align: center;
