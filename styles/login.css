@@ -1,21 +1,49 @@
 
 
 #container{
-    width: 50%;
+    width: 40%;
     margin: auto;
-    background-color:  #faa1c6;
+    background-image: linear-gradient(to bottom, #faa1c6, #ec9dcc, #dc9ad1, #c998d5, #b596d7);
     padding: 40px;
 }
 
-#container input{
-    width: 20px;
-
+#login-txt{
+    color: white;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
-#container>div>p{
 
-    /* color: white; */
-    font-size: 20px;
+#logwithgogoole>img{
+    width: 150px;
 }
+
+#name>input, #name+input {
+    padding: 10px;
+    width: 12vw;
+    margin: 10px;
+}
+
+
+#savecon{
+    background-color: #faa1c6;
+    padding: 10px;
+    width: 12vw;
+    margin: 10px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+
+#disclamer{
+   text-align: center;
+   font-family: 'Quicksand', sans-serif;
+   font-weight: bold;
+   font-size: 15px;
+}
+
 
 #login-box{
     border: opx solid red;
