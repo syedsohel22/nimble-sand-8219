@@ -1,0 +1,28 @@
+
+
+#container{
+    width: 50%;
+    margin: auto;
+    background-color:  #faa1c6;
+    padding: 40px;
+}
+
+#container input{
+    width: 20px;
+
+}
+#container>div>p{
+
+    /* color: white; */
+    font-size: 20px;
+}
+
+#login-box{
+    border: opx solid red;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+}
