@@ -26,6 +26,7 @@
         <p>Login/Sign Up</p>
       </div>
       <div id="login-box">
+
         <h3><i class="fa-solid fa-mobile"></i>Welcome!</h3>
         <div id="logwithgogoole">
           <img
@@ -37,14 +38,16 @@
         <hr />
         <p>Or Enter Account Deatails</p>
         <div id="name">
-          <input type="text" id="firstname" placeholder="Frist Name" />
-          <input type="text" id="lastname" placeholder="Last Name" />
+          <form action="" onsubmit="loginFunc()">
+          <input type="text" id="userame" placeholder="Userame" />
+          <input type="password" id="password" placeholder="Password" />
         </div>
 
-        <input type="email" id="email" placeholder="Email Address" />
 
-        <div id="savecon">Save and Continue</div>
+        <div id="savecon" onclick="otpalrt()">Save and Continue</div>
+        <button type="submit">Login</button>
       </div>
+    </form>
       <div id="disclamer">
         <p>
           Registering for this site allows you to access your order status and
@@ -61,9 +64,3 @@
   </body>
 </html>
 <script src="/script/login.js"></script>
-<!-- login page text  -->
-<!-- Registering for this site allows you to access your order status and history. Just fill in the
-fields below, and we'll get a new account set up for you in no time. We will only ask you
-for information necessary to make the purchase process faster and easier. -->
-
-<!-- By Signing up or logging in, you agree to our Terms and Conditions -->
