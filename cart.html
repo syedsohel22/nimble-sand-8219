@@ -6,7 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cart page</title>
     <link rel="stylesheet" href="/styles/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css"
+      integrity="sha512-bSncow0ApIhONbz+pNI52n0trz5fMWbgteHsonaPk42JbunIeM9ee+zTYAUP1eLPky5wP0XZ7MSLAPxKkwnlzw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- logo section  -->
+    <div id="top-bar">
+      <img
+        src="https://media.sugarcosmetics.com/upload/SUGARLogo1.png"
+        alt=""
+      />
+      <input type="text" placeholder=" try Liquid Lipstick" />
+      <div></div>
+      <div id="serchbtn">Search</div>
+      <div>
+        <button>
+          <i class="fa-solid fa-user"></i
+          ><a href="/login.html">Login/Register</a>
+        </button>
+      </div>
+      <div id="icons">
+        <i class="fa-solid fa-heart"></i>
+        <a href="/cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i class="fa-solid fa-badge-percent"></i>
+        <!-- <img
+            src="https://in.sugarcosmetics.com/desc-images/discountIcon.svg"
+            alt="discount"
+            width="18px"
+            height="18px"
+          /> -->
+      </div>
+    </div>
+    <!-- navbar -->
+    <div id="navbar">
+      <div>MAKEUP</div>
+      <div>BRUSHES</div>
+      <div>SKINCARE</div>
+      <div>GIFTING</div>
+      <div>BLOG</div>
+      <div>OFFERS</div>
+      <div>STORES</div>
+    </div>
+    <div id="cart-container">
+      <div id="side-box"></div>
+      <div>
+        <div id="cart-box">
+          <div>
+            <i class="fa-solid fa-gift"></i>
+            <p>Gift Card/Discount Code</p>
+            <input type="text" placeholder="Enter Promo Code" />
+            <button>Apply</button>
+          </div>
+          <div>
+            <img
+              src="https://in.sugarcosmetics.com/desc-images/PriceDetails.svg"
+              alt=""
+            />
+            <p>Prize Details</p>
+          </div>
+          <div id="bill-box">
+            <div>
+              <div>
+                <i class="fas fa-shopping-bag"></i>
+                <p>Cart Sub Total</p>
+                <span>1000</span>
+              </div>
+              <div>
+                <i class="fas fa-truck"></i>
+                <p>Shipping Cost</p>
+                <span>1000</span>
+              </div>
+              <div>
+                <i class="fas fa-tag"></i>
+                <p>Discount Applied</p>
+                <span>1000</span>
+              </div>
+              <div>
+                <i class="fas fa-file-invoice-dollar"></i>
+                <p>Amount Payable</p>
+                <span>1000</span>
+              </div>
+              <p>Including Taxes</p>
+            </div>
+          </div>
+          <div id="last-d">
+            <span>Coninue Shopping</span>
+            <button>Delivery Information</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+      <img
+        src="https://zippy-pasca-d552ae.netlify.app/imgs/footer.jpg"
+        alt=""
+      />
+    </div>
+  </body>
 </html>
 <script src="/script/cart.js"></script>
