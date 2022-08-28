@@ -4,63 +4,211 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>login page</title>
-    <link rel="stylesheet" href="/styles/login.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.css"
-      integrity="sha512-VoR2Y+jYERzZdXUtiFB4JmQSTBR9+vQ7LA1BhQ6rLcZKd8bc5h0wAfbO8qk+vEZnGreFBPG5Ko6jnDWUxhLbmw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
       rel="stylesheet"
     />
+    <title>Document</title>
+    <style>
+      @charset "utf-8";
+      @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+      [class*="fontawesome-"]:before {
+        font-family: "FontAwesome", sans-serif;
+      }
+
+      body {
+        /* color: white; */
+        font: 87.5%/1.5em "Open Sans", sans-serif;
+        margin: 0;
+      }
+
+      p {
+        line-height: 1.5em;
+      }
+
+      after {
+        clear: both;
+      }
+
+      #container {
+        display: flex;
+        background-image: linear-gradient(
+          to bottom,
+          #faa1c6,
+          #ec9dcc,
+          #dc9ad1,
+          #c998d5,
+          #b596d7
+        );
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 15px;
+        font-family: "Quicksand", sans-serif;
+      }
+
+      .login {
+        margin: 50px auto;
+        width: 320px;
+      }
+
+      .login form {
+        margin: auto;
+        padding: 22px 22px 22px 22px;
+        width: 100%;
+        border-radius: 5px;
+        background: #fff;
+        /* border-top: 3px solid black; */
+        border-bottom: 3px solid #434a52;
+      }
+
+      .login form span {
+        background-color: #363b41;
+        border-radius: 3px 0px 0px 3px;
+        border-right: 3px solid #434a52;
+        color: #606468;
+        display: block;
+        float: left;
+        line-height: 50px;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+      }
+
+      .login form input[type="email"] {
+        background-color: #fff;
+        border-radius: 0px 3px 3px 0px;
+        color: #a9a9a9;
+        margin-bottom: 1em;
+        padding: 0 16px;
+        width: 90%;
+        height: 50px;
+      }
+
+      .login form input[type="password"] {
+        background-color: #fff;
+        border-radius: 0px 3px 3px 0px;
+        color: #a9a9a9;
+        margin-bottom: 1em;
+        padding: 0 16px;
+        width: 90%;
+        height: 50px;
+      }
+
+      .login form input[type="submit"] {
+        background: #b5cd60;
+        border: 0;
+        width: 100%;
+        height: 40px;
+        border-radius: 3px;
+        color: white;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out;
+      }
+      #login form input[type="submit"]:hover {
+        background: #16aa56;
+      }
+    </style>
   </head>
   <body>
     <div id="container">
-      <div id="login-txt">
-        <p>Login/Sign Up</p>
-      </div>
-      <div id="login-box">
+      <div class="login">
+        <form name="form-login">
+          <h1>REGISTER</h1>
 
-        <h3><i class="fa-solid fa-mobile"></i>Welcome!</h3>
-        <div id="logwithgogoole">
-          <img
-            src="data:image/png;base64,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"
-            alt=""
+          <label for="name">Email</label>
+          <input type="email" id="name" placeholder="Username" required />
+
+          <label for="pw">Password</label>
+          <input type="password" id="pw" placeholder="Password" required />
+
+          <ul class="helper-text">
+            <li class="length">Must be at least 8 characters long.</li>
+            <li class="lowercase">Must contain a lowercase letter.</li>
+            <li class="uppercase">Must contain an uppercase letter.</li>
+            <li class="special">Must contain a number or special character.</li>
+          </ul>
+          <input
+            id="rgstr_btn"
+            type="submit"
+            value="Register"
+            onclick="store()"
           />
-        </div>
-
-        <hr />
-        <p>Or Enter Account Deatails</p>
-        <div id="name">
-          <form action="" onsubmit="loginFunc()">
-          <input type="text" id="userame" placeholder="Userame" />
-          <input type="password" id="password" placeholder="Password" />
-        </div>
-
-
-        <div id="savecon" onclick="otpalrt()">Save and Continue</div>
-        <button type="submit">Login</button>
+        </form>
       </div>
-    </form>
-      <div id="disclamer">
-        <p>
-          Registering for this site allows you to access your order status and
-          history. Just fill in the fields below, and we'll get a new account
-          set up for you in no time. We will only ask you for information
-          necessary to make the purchase process faster and easier.
-        </p>
-        <p>
-          By Signing up or logging in, you agree to our
-          <u>Terms and Conditions</u>
-        </p>
+
+      <div class="login">
+        <form name="form-login">
+          <h1>SIGN IN</h1>
+
+          <label for="userName">Email</label>
+          <input type="email" id="userName" placeholder="Username" required />
+
+          <label for="userPw">Password</label>
+          <input type="password" id="userPw" placeholder="Password" required />
+
+          <div id="remember">
+            <input
+              type="checkbox"
+              value="lsRememberMe"
+              id="rememberMe"
+              style="display: inline-block"
+            />
+            <label>Remember me</label>
+          </div>
+
+          <input id="login_btn" type="submit" value="Login" onclick="check()" />
+        </form>
       </div>
     </div>
   </body>
 </html>
-<script src="/script/login.js"></script>
+<script>
+  function store() {
+    var name = document.getElementById("name");
+    var pw = document.getElementById("pw");
+    var lowerCaseLetters = /[a-z]/g;
+    var upperCaseLetters = /[A-Z]/g;
+    var numbers = /[0-9]/g;
+
+    if (name.value.length == 0) {
+      alert("Please fill in email");
+    } else if (pw.value.length == 0) {
+      alert("Please fill in password");
+    } else if (name.value.length == 0 && pw.value.length == 0) {
+      alert("Please fill in email and password");
+    } else if (pw.value.length > 8) {
+      alert("Max of 8");
+    } else if (!pw.value.match(numbers)) {
+      alert("please add 1 number");
+    } else if (!pw.value.match(upperCaseLetters)) {
+      alert("please add 1 uppercase letter");
+    } else if (!pw.value.match(lowerCaseLetters)) {
+      alert("please add 1 lovercase letter");
+    } else {
+      localStorage.setItem("name", name.value);
+      localStorage.setItem("pw", pw.value);
+      alert("Your account has been created");
+    }
+  }
+
+  //checking
+  function check() {
+    var storedName = localStorage.getItem("name");
+    var storedPw = localStorage.getItem("pw");
+
+    var userName = document.getElementById("userName");
+    var userPw = document.getElementById("userPw");
+    var userRemember = document.getElementById("rememberMe");
+
+    if (userName.value == storedName && userPw.value == storedPw) {
+      alert("You are logged in.");
+    } else {
+      alert("Error on login");
+    }
+  }
+</script>

@@ -111,7 +111,10 @@ padding: 5px;
     height: 650px;
     border: 0px solid blue;
 }
-
+#side-box>div>img{
+    width: 150px;
+    height: 150px;
+}
 #bill-box{
     background-color: #fff;
     border: 0px solid blue; 
@@ -136,7 +139,7 @@ padding: 5px;
 
 #bill-box>div>div>span{
     padding: 10px;
-    border: 1px solid red;
+    border: 0px solid red;
     margin-left: 80px;
     
 }
